@@ -15,19 +15,21 @@ In order to run this script you must install the required packages
 
 Run the following commands to install the required modules to run this script.
 
-```python
-#Install Pylint
-pip install pylint
+1. Run below commands
+  ```python
+  #Install Pylint
+  pip install pylint
 
-# Setup virtualenv (optional)
-pip install virtualenv
-python3 -m venv env
-source env/bin/activate
+  # Setup virtualenv (optional)
+  pip install virtualenv
+  python3 -m venv env
+  source env/bin/activate
 
-# Install required modules
-pip install -r requirements.txt
-
-```
+  # Install required modules
+  pip install -r requirements.txt
+  ```
+2. Rename file `.env.example` to `.env`
+    * Add appropriate api keys and default email address to the file.
 
 ## Running the script
 
