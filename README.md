@@ -10,6 +10,8 @@ In order to run this script you must install the required packages
 
 * Python version 3.8.x
 * Pip version 20.0.x
+* SendGrid Free Account and API Key
+  * [Guide to Create API Key](https://docs.sendgrid.com/for-developers/sending-email/quickstart-python)
 
 ## Install
 
