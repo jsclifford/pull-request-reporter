@@ -26,7 +26,7 @@ args = parser.parse_args()
 
 dot_env.load_env()
 
-if hasattr(args, 'email'):
+if not hasattr(args, 'email'):
     print("Using Default Email in .env file")
     args.email = os.environ.get('DEFAULT_EMAIL')
 
